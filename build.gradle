@@ -20,6 +20,11 @@ dependencies {
 	
 }
 
+war{
+ archiveName = 'ROOT.war'
+ destinationDir = file('webapps')
+}
+
 // Embeded Jetty for testing
 jettyRun{
 	contextPath = "spring4"
